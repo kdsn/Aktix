@@ -6,11 +6,13 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@eslint/js": "^9.31.0",
-    "eslint": "^9.31.0",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-react": "^7.37.5",
-    "globals": "^13.24.0"
+    "@eslint/js": "^x.x.x",
+    "eslint": "^9.x.x",
+    "eslint-plugin-jsx-a11y": "^6.x.x",
+    "eslint-plugin-react": "^7.x.x",
+    "globals": "^x.x.x"
+
+
   },
   "main": "eslint.config.js",
   "dependencies": {

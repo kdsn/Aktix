@@ -30,11 +30,14 @@ jobs:
         with:
           node-version: "18"
 
+      - name: Clean node_modules and lock file
+        working-directory: src/client
+        run: rm -rf node_modules package-lock.json
+
       - name: Install Node dependencies
         working-directory: src/client
         run: npm install
 
-      - name: Lint JavaScript/React
+      - name: Lint JavaScript/React code
         working-directory: src/client
         run: npm run lint
-
