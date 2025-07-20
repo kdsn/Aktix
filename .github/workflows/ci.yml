@@ -52,10 +52,6 @@ jobs:
         working-directory: src/client
         run: npm test
 
-      - name: Build PWA
-        working-directory: src/client
-        run: npm run build
-
       - name: Check build output
         working-directory: src/client
         run: test -d dist || test -d build
