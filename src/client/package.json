@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest --passWithNoTests",
-    "build": "npm run build"
+    "test": "jest --passWithNoTests"
   },
   "devDependencies": {
     "@eslint/js": "^x.x.x",
