@@ -1,3 +1,5 @@
+![CI](https://github.com/kdsn/Aktix/actions/workflows/ci.yml/badge.svg?branch=main)
+
 # 📌 Aktix
 
 🔹 **Short description:**  
