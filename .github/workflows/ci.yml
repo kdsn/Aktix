@@ -32,8 +32,9 @@ jobs:
 
       - name: Install Node dependencies
         working-directory: src/client
-        run: npm ci
+        run: npm install
 
       - name: Lint JavaScript/React
         working-directory: src/client
         run: npm run lint
+
